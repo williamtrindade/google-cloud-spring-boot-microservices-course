@@ -4,3 +4,9 @@ ___
 ### Demo application architecture
 
 ![Image](https://i.ibb.co/9tgtrCY/image.png)
+
+### Distributed tracing using zipkin architecture
+![Image](https://i.ibb.co/g3BVx19/image.png)
+
+### Message queuing service architecture
+![Image](https://i.ibb.co/Cm13HfP/image.png)
