@@ -44,7 +44,8 @@ _____
 > Conectar ao banco com gcloud CLI   
 ```gcloud sql connect guestbook```   
 
-
+> Habilitar a Cloud Trace API   
+```gcloud services enable cloudtrace.googleapis.com```
 ____
 
 ## Comandos Maven
