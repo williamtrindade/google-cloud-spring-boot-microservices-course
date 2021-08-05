@@ -29,6 +29,9 @@ ___
 
 > Confirm that Cloud SQL Administration API is enabled   
 ```gcloud services list | grep sqladmin```   
+
+> Listar as instancias de Cloud SQL   
+```gcloud sql instances list```
 ___
 
 ## Comandos Maven
