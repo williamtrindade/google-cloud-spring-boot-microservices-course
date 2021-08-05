@@ -26,5 +26,9 @@ ___
 ___
 
 ## Comandos Maven
-> Rodar aplicação spring back-end   
+> Rodar aplicação spring back-end    
 ```./mvnw -q spring-boot:run -Dserver.port=8081```
+___
+### Comandos da aplicação demo
+> Request via curl em localhost  
+```curl http://localhost:8081/guestbookMessages```
