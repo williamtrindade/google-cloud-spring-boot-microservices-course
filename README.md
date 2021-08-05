@@ -32,14 +32,19 @@ _____
 > Confirm that Cloud SQL Administration API is enabled   
 ```gcloud services list | grep sqladmin```   
 
-> Listar as instancias de Cloud SQL   
+> Listar as instâncias de Cloud SQL   
 ```gcloud sql instances list```
 
-> Criar instancia Cloud SQL   
+> Criar instância Cloud SQL   
 ```gcloud sql instances create guestbook --region=us-central1```   
 
-> Criar um banco em Cloud SQL
+> Criar um banco em Cloud SQL   
 ```gcloud sql databases create messages --instance guestbook```
+
+> Conectar ao banco com gcloud CLI   
+```gcloud sql connect guestbook```   
+
+    
 ____
 
 ## Comandos Maven
