@@ -1,6 +1,4 @@
-# google-cloud-spring-boot-microservices-course
-Google Cloud "Building Scalable Java Microservices with Spring Boot and Spring Cloud" course codes
-___
+## Demo application
 ### Demo application architecture
 
 ![Image](https://i.ibb.co/9tgtrCY/image.png)
@@ -10,3 +8,18 @@ ___
 
 ### Message queuing service architecture
 ![Image](https://i.ibb.co/Cm13HfP/image.png)
+___
+
+## Comandos cloud shell
+
+> Visualizar conta  
+```gcloud config list account```   
+
+> Visualizar projeto  
+```gcloud config list project```   
+
+> Definir zona  
+```gcloud config set compute/zone [YOUR_ZONE]```
+
+> Ver todas variáveis definidas  
+```gcloud config list```
