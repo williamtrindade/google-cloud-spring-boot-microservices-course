@@ -60,7 +60,14 @@ ___
 
 > Fazer pull das mensagens Pub/Sub   
 ```gcloud pubsub subscriptions pull messages-subscription-1```
+
 ____
+
+### Comandos do App Engine
+> Habilitar o App Engine no projeto
+```gcloud app create --region=us-central```
+
+___
 
 ## Comandos Maven
 > Rodar aplicação spring back-end    
