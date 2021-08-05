@@ -30,5 +30,17 @@ ___
 ```./mvnw -q spring-boot:run -Dserver.port=8081```
 ___
 ## Comandos da aplicação demo
-> Request via curl em localhost  
+> Teste da aplicação CURL   
 ```curl http://localhost:8081/guestbookMessages```
+
+> POST CURL   
+```
+curl -XPOST -H "content-type: application/json" \
+-d '{"name": "Ray", "message": "Hello"}' \
+  http://localhost:8081/guestbookMessages
+
+```
+  
+> GET all CURL   
+```curl http://localhost:8081/guestbookMessages```
+_____
