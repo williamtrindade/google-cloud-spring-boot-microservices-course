@@ -47,7 +47,7 @@ ___
 ### Comandos Cloud Trace API
 > Habilitar a Cloud Trace API   
 ```gcloud services enable cloudtrace.googleapis.com```
-___
+___ 
 ### Comandos Cloud Pub/Sub API
 > Ative a API Cloud Pub/Sub   
 ```gcloud services enable pubsub.googleapis.com```
@@ -58,7 +58,7 @@ ___
 > Crie uma inscrição Pub/Sub   
 ```gcloud pubsub subscriptions create messages-subscription-1 --topic=messages```
 
-> Fazer pull da mensagens Pub/Sub
+> Fazer pull das mensagens Pub/Sub   
 ```gcloud pubsub subscriptions pull messages-subscription-1```
 ____
 
