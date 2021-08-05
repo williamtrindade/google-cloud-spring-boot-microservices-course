@@ -22,7 +22,9 @@ ___
 ```gcloud config set compute/zone [YOUR_ZONE]```
 
 > Ver todas variáveis definidas  
-```gcloud config list```
+```gcloud config list```   
+_____
+## Comandos Cloud SQL
 
 > Enable Cloud SQL Administration API   
 ```gcloud services enable sqladmin.googleapis.com```
@@ -32,7 +34,13 @@ ___
 
 > Listar as instancias de Cloud SQL   
 ```gcloud sql instances list```
-___
+
+> Criar instancia Cloud SQL   
+```gcloud sql instances create guestbook --region=us-central1```   
+
+> Criar um banco em Cloud SQL
+```gcloud sql databases create messages --instance guestbook```
+____
 
 ## Comandos Maven
 > Rodar aplicação spring back-end    
