@@ -23,3 +23,8 @@ ___
 
 > Ver todas variáveis definidas  
 ```gcloud config list```
+___
+
+## Comandos Maven
+> Rodar aplicação spring back-end   
+```./mvnw -q spring-boot:run -Dserver.port=8081```
