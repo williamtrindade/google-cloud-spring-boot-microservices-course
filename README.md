@@ -44,7 +44,7 @@ _____
 > Conectar ao banco com gcloud CLI   
 ```gcloud sql connect guestbook```   
 
-    
+
 ____
 
 ## Comandos Maven
