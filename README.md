@@ -23,6 +23,12 @@ ___
 
 > Ver todas variáveis definidas  
 ```gcloud config list```
+
+> Enable Cloud SQL Administration API   
+```gcloud services enable sqladmin.googleapis.com```
+
+> Confirm that Cloud SQL Administration API is enabled   
+```gcloud services list | grep sqladmin```   
 ___
 
 ## Comandos Maven
