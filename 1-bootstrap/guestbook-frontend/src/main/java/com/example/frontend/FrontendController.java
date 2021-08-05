@@ -6,13 +6,17 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.*;
 import java.util.*;
+import org.springframework.cloud.gcp.pubsub.core.*;
 
 @Controller
 @SessionAttributes("name")
 public class FrontendController {
 	@Autowired
 	private GuestbookMessagesClient client;
-	
+
+	@Autowired
+	private PubSubTemplate pubSubTemplate;
+
 	@Value("${greeting:Hello}")
 	private String greeting;
 	
@@ -31,6 +35,7 @@ public class FrontendController {
 		model.addAttribute("name", name);
 		if (message != null && !message.trim().isEmpty()) {
 			// Post the message to the backend service
+			pubSubTemplate.publish("messages", name + ": " + message);
 			GuestbookMessage payload = new GuestbookMessage();
 			payload.setName(name);
 			payload.setMessage(message);

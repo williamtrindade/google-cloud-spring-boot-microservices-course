@@ -43,9 +43,23 @@ _____
 
 > Conectar ao banco com gcloud CLI   
 ```gcloud sql connect guestbook```   
-
+___
+### Comandos Cloud Trace API
 > Habilitar a Cloud Trace API   
 ```gcloud services enable cloudtrace.googleapis.com```
+___
+### Comandos Cloud Pub/Sub API
+> Ative a API Cloud Pub/Sub   
+```gcloud services enable pubsub.googleapis.com```
+
+> Crie um tópico Cloud Pub/Sub   
+```gcloud pubsub topics create messages```
+
+> Crie uma inscrição Pub/Sub   
+```gcloud pubsub subscriptions create messages-subscription-1 --topic=messages```
+
+> Fazer pull da mensagens Pub/Sub
+```gcloud pubsub subscriptions pull messages-subscription-1```
 ____
 
 ## Comandos Maven
